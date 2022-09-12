@@ -1,0 +1,27 @@
+{
+  "changelogDate": "20220327071227",
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "siret",
+      "fieldType": "Integer",
+      "fieldValidateRules": ["required", "unique"]
+    }
+  ],
+  "jpaMetamodelFiltering": false,
+  "name": "Pointdevente",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "id": false,
+      "otherEntityField": "id",
+      "otherEntityName": "addresse",
+      "otherEntityRelationshipName": "pointdevente",
+      "ownerSide": true,
+      "relationshipName": "addresse",
+      "relationshipType": "one-to-one"
+    }
+  ],
+  "service": "serviceImpl"
+}

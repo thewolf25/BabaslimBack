@@ -1,0 +1,29 @@
+{
+  "changelogDate": "20220327065102",
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "rue",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "codePostale",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "complement",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "commune",
+      "fieldType": "String"
+    }
+  ],
+  "jpaMetamodelFiltering": false,
+  "name": "Addresse",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}
